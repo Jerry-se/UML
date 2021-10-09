@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-09-30T09:38:58.433Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.61 Safari/537.36" etag="F4xFZQiQmh7ZJY49FQmy" version="15.3.8" type="github">
+<mxfile host="app.diagrams.net" modified="2021-10-09T08:35:08.352Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.81 Safari/537.36" etag="qRZTCBgOM6pWL4XXc3tK" version="15.4.3" type="github">
   <diagram name="Page-1" id="e7e014a7-5840-1c2e-5031-d8a46d1fe8dd">
     <mxGraphModel dx="1355" dy="773" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="826" background="none" math="0" shadow="0">
       <root>
@@ -218,7 +218,7 @@
         <mxCell id="j3g2-RbLPYTZvtvbNVoc-94" value="boost::asio模块" style="rounded=0;whiteSpace=wrap;html=1;" parent="2" vertex="1">
           <mxGeometry x="950" y="160" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="nzFxxBjij32cpxuQX-4B-20" value="大量使用subscribe-publish模式，用于定时器功能、各个服务之间的通信和recv msg之后的分发处理等。" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="2">
+        <mxCell id="nzFxxBjij32cpxuQX-4B-20" value="大量使用subscribe-publish模式，用于定时器功能、各个服务之间的通信和recv msg之后的分发处理等。" style="rounded=0;whiteSpace=wrap;html=1;" parent="2" vertex="1">
           <mxGeometry x="600" y="650" width="280" height="60" as="geometry" />
         </mxCell>
         <mxCell id="j3g2-RbLPYTZvtvbNVoc-59" value="" style="endArrow=open;strokeColor=#FF0000;endFill=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" parent="1" source="j3g2-RbLPYTZvtvbNVoc-48" edge="1">
@@ -430,6 +430,60 @@
           <mxGeometry x="1" width="20" height="20" relative="1" as="geometry">
             <mxPoint x="-24" y="4" as="offset" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="J39Y9N9ykTRSwOIXK5WI-21" value="创建虚拟机" style="swimlane;" vertex="1" parent="1">
+          <mxGeometry x="1200" y="840" width="560" height="560" as="geometry" />
+        </mxCell>
+        <mxCell id="J39Y9N9ykTRSwOIXK5WI-30" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;strokeColor=#FF0000;" edge="1" parent="J39Y9N9ykTRSwOIXK5WI-21" source="J39Y9N9ykTRSwOIXK5WI-20" target="J39Y9N9ykTRSwOIXK5WI-22">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="J39Y9N9ykTRSwOIXK5WI-20" value="TaskManager::ProcessTask&lt;br&gt;node_request_service定时每隔10秒循环一次，扫描处理任务列表" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="J39Y9N9ykTRSwOIXK5WI-21">
+          <mxGeometry x="40" y="40" width="200" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="J39Y9N9ykTRSwOIXK5WI-31" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;strokeColor=#FF0000;" edge="1" parent="J39Y9N9ykTRSwOIXK5WI-21" source="J39Y9N9ykTRSwOIXK5WI-22" target="J39Y9N9ykTRSwOIXK5WI-23">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="J39Y9N9ykTRSwOIXK5WI-22" value="创建任务" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="J39Y9N9ykTRSwOIXK5WI-21">
+          <mxGeometry x="100" y="140" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="J39Y9N9ykTRSwOIXK5WI-37" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;strokeColor=#FF0000;" edge="1" parent="J39Y9N9ykTRSwOIXK5WI-21" source="J39Y9N9ykTRSwOIXK5WI-23" target="J39Y9N9ykTRSwOIXK5WI-24">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="J39Y9N9ykTRSwOIXK5WI-23" value="VmClient::CreateDomain" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="J39Y9N9ykTRSwOIXK5WI-21">
+          <mxGeometry x="40" y="260" width="200" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="J39Y9N9ykTRSwOIXK5WI-34" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;strokeColor=#FF0000;" edge="1" parent="J39Y9N9ykTRSwOIXK5WI-21" source="J39Y9N9ykTRSwOIXK5WI-24" target="J39Y9N9ykTRSwOIXK5WI-25">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="J39Y9N9ykTRSwOIXK5WI-24" value="createXmlStr把id, name, cpu, memory, image等拼成XML" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="J39Y9N9ykTRSwOIXK5WI-21">
+          <mxGeometry x="320" y="40" width="200" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="J39Y9N9ykTRSwOIXK5WI-35" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;strokeColor=#FF0000;" edge="1" parent="J39Y9N9ykTRSwOIXK5WI-21" source="J39Y9N9ykTRSwOIXK5WI-25" target="J39Y9N9ykTRSwOIXK5WI-26">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="J39Y9N9ykTRSwOIXK5WI-25" value="virConnectOpen&lt;br&gt;qemu+tcp://localhost:16509/system" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="J39Y9N9ykTRSwOIXK5WI-21">
+          <mxGeometry x="320" y="140" width="200" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="J39Y9N9ykTRSwOIXK5WI-36" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;strokeColor=#FF0000;" edge="1" parent="J39Y9N9ykTRSwOIXK5WI-21" source="J39Y9N9ykTRSwOIXK5WI-26" target="J39Y9N9ykTRSwOIXK5WI-27">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="J39Y9N9ykTRSwOIXK5WI-26" value="virDomainDefineXML" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="J39Y9N9ykTRSwOIXK5WI-21">
+          <mxGeometry x="320" y="240" width="200" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="J39Y9N9ykTRSwOIXK5WI-38" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;strokeColor=#FF0000;" edge="1" parent="J39Y9N9ykTRSwOIXK5WI-21" source="J39Y9N9ykTRSwOIXK5WI-27" target="J39Y9N9ykTRSwOIXK5WI-28">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="J39Y9N9ykTRSwOIXK5WI-27" value="virDomainCreate" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="J39Y9N9ykTRSwOIXK5WI-21">
+          <mxGeometry x="320" y="339" width="200" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="J39Y9N9ykTRSwOIXK5WI-33" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;strokeColor=#FF0000;" edge="1" parent="J39Y9N9ykTRSwOIXK5WI-21" source="J39Y9N9ykTRSwOIXK5WI-28" target="J39Y9N9ykTRSwOIXK5WI-29">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="J39Y9N9ykTRSwOIXK5WI-28" value="TaskManager::create_task_iptable&lt;br&gt;获取共有IP和虚拟机的本地IP，设置iptables规则" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="J39Y9N9ykTRSwOIXK5WI-21">
+          <mxGeometry x="40" y="360" width="200" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="J39Y9N9ykTRSwOIXK5WI-29" value="TaskManager::set_vm_password&lt;br&gt;设置虚拟机的密码" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="J39Y9N9ykTRSwOIXK5WI-21">
+          <mxGeometry x="40" y="460" width="200" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
