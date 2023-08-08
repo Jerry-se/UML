@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-08-04T07:52:26.567Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36" etag="RO5FucQa3GKBty1PBD4Q" version="21.6.6" type="github" pages="12">
+<mxfile host="app.diagrams.net" modified="2023-08-08T10:51:56.435Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36" etag="NgkC3KH_1U_75q-YyguF" version="21.6.6" type="github" pages="12">
   <diagram name="DBC" id="e7e014a7-5840-1c2e-5031-d8a46d1fe8dd">
     <mxGraphModel dx="2074" dy="1118" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="826" background="none" math="0" shadow="0">
       <root>
@@ -3209,7 +3209,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="dhyNH_noM1AJvxRv4bbP" name="DeepLink">
-    <mxGraphModel dx="2074" dy="1118" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="792" dy="1108" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -4244,7 +4244,7 @@
             <mxRectangle width="420" height="33" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="csc5GcQUKTv4NXotY2iv-1" value="日志" style="connectable=0;recursiveResize=0;strokeColor=inherit;fillColor=#A7C942;align=center;fontStyle=1;fontColor=#FFFFFF;html=1;" vertex="1" parent="HU4zGjCXvEM2DqMAS4Z--2">
+        <mxCell id="csc5GcQUKTv4NXotY2iv-1" value="日志" style="connectable=0;recursiveResize=0;strokeColor=inherit;fillColor=#A7C942;align=center;fontStyle=1;fontColor=#FFFFFF;html=1;" parent="HU4zGjCXvEM2DqMAS4Z--2" vertex="1">
           <mxGeometry x="760" width="240" height="33" as="geometry">
             <mxRectangle width="240" height="33" as="alternateBounds" />
           </mxGeometry>
@@ -4267,7 +4267,7 @@
             <mxRectangle width="420" height="32" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="csc5GcQUKTv4NXotY2iv-2" value="deeplink_server_2023-08-04.log" style="connectable=0;recursiveResize=0;strokeColor=inherit;fillColor=inherit;align=center;whiteSpace=wrap;html=1;" vertex="1" parent="HU4zGjCXvEM2DqMAS4Z--6">
+        <mxCell id="csc5GcQUKTv4NXotY2iv-2" value="deeplink_server_2023-08-04.log" style="connectable=0;recursiveResize=0;strokeColor=inherit;fillColor=inherit;align=center;whiteSpace=wrap;html=1;" parent="HU4zGjCXvEM2DqMAS4Z--6" vertex="1">
           <mxGeometry x="760" width="240" height="32" as="geometry">
             <mxRectangle width="240" height="32" as="alternateBounds" />
           </mxGeometry>
@@ -4290,7 +4290,7 @@
             <mxRectangle width="420" height="31" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="csc5GcQUKTv4NXotY2iv-3" value="deeplink_client_2023-08-04.log" style="connectable=0;recursiveResize=0;strokeColor=inherit;fillColor=inherit;whiteSpace=wrap;html=1;" vertex="1" parent="HU4zGjCXvEM2DqMAS4Z--10">
+        <mxCell id="csc5GcQUKTv4NXotY2iv-3" value="deeplink_client_2023-08-04.log" style="connectable=0;recursiveResize=0;strokeColor=inherit;fillColor=inherit;whiteSpace=wrap;html=1;" parent="HU4zGjCXvEM2DqMAS4Z--10" vertex="1">
           <mxGeometry x="760" width="240" height="31" as="geometry">
             <mxRectangle width="240" height="31" as="alternateBounds" />
           </mxGeometry>
@@ -4313,7 +4313,7 @@
             <mxRectangle width="420" height="33" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="csc5GcQUKTv4NXotY2iv-4" value="qdesk_service_2023-08-03.log" style="connectable=0;recursiveResize=0;strokeColor=inherit;fillColor=inherit;fontStyle=0;align=center;whiteSpace=wrap;html=1;" vertex="1" parent="HU4zGjCXvEM2DqMAS4Z--14">
+        <mxCell id="csc5GcQUKTv4NXotY2iv-4" value="qdesk_service_2023-08-03.log" style="connectable=0;recursiveResize=0;strokeColor=inherit;fillColor=inherit;fontStyle=0;align=center;whiteSpace=wrap;html=1;" parent="HU4zGjCXvEM2DqMAS4Z--14" vertex="1">
           <mxGeometry x="760" width="240" height="33" as="geometry">
             <mxRectangle width="240" height="33" as="alternateBounds" />
           </mxGeometry>
@@ -4336,7 +4336,7 @@
             <mxRectangle width="420" height="31" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="csc5GcQUKTv4NXotY2iv-5" value="qdesk_server_2023-08-03.log" style="connectable=0;recursiveResize=0;strokeColor=inherit;fillColor=inherit;whiteSpace=wrap;html=1;" vertex="1" parent="HU4zGjCXvEM2DqMAS4Z--18">
+        <mxCell id="csc5GcQUKTv4NXotY2iv-5" value="qdesk_server_2023-08-03.log" style="connectable=0;recursiveResize=0;strokeColor=inherit;fillColor=inherit;whiteSpace=wrap;html=1;" parent="HU4zGjCXvEM2DqMAS4Z--18" vertex="1">
           <mxGeometry x="760" width="240" height="31" as="geometry">
             <mxRectangle width="240" height="31" as="alternateBounds" />
           </mxGeometry>
@@ -4359,7 +4359,7 @@
             <mxRectangle width="420" height="33" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="csc5GcQUKTv4NXotY2iv-6" value="qdesk_client_2023-08-04.log" style="connectable=0;recursiveResize=0;strokeColor=inherit;fillColor=inherit;fontStyle=0;align=center;whiteSpace=wrap;html=1;" vertex="1" parent="HU4zGjCXvEM2DqMAS4Z--40">
+        <mxCell id="csc5GcQUKTv4NXotY2iv-6" value="qdesk_client_2023-08-04.log" style="connectable=0;recursiveResize=0;strokeColor=inherit;fillColor=inherit;fontStyle=0;align=center;whiteSpace=wrap;html=1;" parent="HU4zGjCXvEM2DqMAS4Z--40" vertex="1">
           <mxGeometry x="760" width="240" height="33" as="geometry">
             <mxRectangle width="240" height="33" as="alternateBounds" />
           </mxGeometry>
@@ -4382,7 +4382,7 @@
             <mxRectangle width="420" height="31" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="csc5GcQUKTv4NXotY2iv-7" value="qdesk_tip_2023-07-20.log" style="connectable=0;recursiveResize=0;strokeColor=inherit;fillColor=inherit;whiteSpace=wrap;html=1;" vertex="1" parent="HU4zGjCXvEM2DqMAS4Z--44">
+        <mxCell id="csc5GcQUKTv4NXotY2iv-7" value="qdesk_tip_2023-07-20.log" style="connectable=0;recursiveResize=0;strokeColor=inherit;fillColor=inherit;whiteSpace=wrap;html=1;" parent="HU4zGjCXvEM2DqMAS4Z--44" vertex="1">
           <mxGeometry x="760" width="240" height="31" as="geometry">
             <mxRectangle width="240" height="31" as="alternateBounds" />
           </mxGeometry>
@@ -4405,13 +4405,53 @@
             <mxRectangle width="420" height="33" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="csc5GcQUKTv4NXotY2iv-8" value="deeplink_update_2023-08-04.log" style="connectable=0;recursiveResize=0;strokeColor=inherit;fillColor=inherit;fontStyle=0;align=center;whiteSpace=wrap;html=1;" vertex="1" parent="HU4zGjCXvEM2DqMAS4Z--48">
+        <mxCell id="csc5GcQUKTv4NXotY2iv-8" value="deeplink_update_2023-08-04.log" style="connectable=0;recursiveResize=0;strokeColor=inherit;fillColor=inherit;fontStyle=0;align=center;whiteSpace=wrap;html=1;" parent="HU4zGjCXvEM2DqMAS4Z--48" vertex="1">
           <mxGeometry x="760" width="240" height="33" as="geometry">
             <mxRectangle width="240" height="33" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
         <mxCell id="HU4zGjCXvEM2DqMAS4Z--52" value="远程控制的被控端子进程常见命令:&lt;br&gt;1.&amp;nbsp;deeplink.exe -initCodec false&lt;br&gt;2. deeplink.exe&amp;nbsp;-change_display false -width 0 -height 0 -refresh_rate 60&lt;br&gt;3.&amp;nbsp;deeplink.exe -server 20600 -t epe -key tqnljv" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=14;fontFamily=Helvetica;fontColor=default;" parent="1" vertex="1">
           <mxGeometry x="1680" y="800" width="480" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="LDBBrfNipCy2JVh--QIx-1" value="主控端" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fontSize=13;fillColor=#0050ef;fontColor=#ffffff;strokeColor=#001DBC;" vertex="1" parent="1">
+          <mxGeometry x="1760" y="1280" width="70" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="LDBBrfNipCy2JVh--QIx-2" value="被控端" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fontSize=13;fillColor=#0050ef;fontColor=#ffffff;strokeColor=#001DBC;" vertex="1" parent="1">
+          <mxGeometry x="2130" y="1280" width="70" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="LDBBrfNipCy2JVh--QIx-3" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1840" y="1300" as="sourcePoint" />
+            <mxPoint x="2120" y="1300" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="LDBBrfNipCy2JVh--QIx-4" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;void connect(deviceId, passwd)&lt;/font&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=14;" vertex="1" connectable="0" parent="LDBBrfNipCy2JVh--QIx-3">
+          <mxGeometry x="-0.5167" y="1" relative="1" as="geometry">
+            <mxPoint x="52" y="-9" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="LDBBrfNipCy2JVh--QIx-6" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="2120" y="1330" as="sourcePoint" />
+            <mxPoint x="1840" y="1330" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="LDBBrfNipCy2JVh--QIx-7" value="&lt;span style=&quot;font-size: 14px;&quot;&gt;int on_auth(fd, clientId, passwd)&lt;/span&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=14;" vertex="1" connectable="0" parent="LDBBrfNipCy2JVh--QIx-6">
+          <mxGeometry x="0.1238" y="9" relative="1" as="geometry">
+            <mxPoint x="13" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="LDBBrfNipCy2JVh--QIx-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fillColor=#e51400;strokeColor=#B20000;" edge="1" parent="1" source="LDBBrfNipCy2JVh--QIx-8" target="LDBBrfNipCy2JVh--QIx-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="LDBBrfNipCy2JVh--QIx-8" value="qdesk sdk 规定的验证流程:&lt;br&gt;1. 主控端调用 connect(deviceId, passwd) 发送设备验证码。&lt;br&gt;2. 被控端的回调函数 on_auth(fd, clientId, passwd) 被触发，回调函数返回 0 表示验证成功，返回非 0 表示验证失败。&lt;br&gt;3. 双方使用 qdesk sdk 建立的 P2P 传输，安全已有保证。" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=14;fontFamily=Helvetica;fontColor=default;" vertex="1" parent="1">
+          <mxGeometry x="1760" y="1380" width="480" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="LDBBrfNipCy2JVh--QIx-9" value="有哪些问题？&lt;br&gt;1. passwd 的值怎么确定？是明文还是密文？跟被控端的验证码比较吗？&lt;br&gt;2. 使用对称加密还是非对称加密？&lt;br&gt;3. 使用什么算法加密？是使用钱包还是 AES/RSA 等加密算法？" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=14;fontFamily=Helvetica;fontColor=default;" vertex="1" parent="1">
+          <mxGeometry x="1760" y="1640" width="480" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="LDBBrfNipCy2JVh--QIx-10" value="示例(假设被控端设备码为 &quot;123456789&quot;，验证码为 &quot;abc123&quot;):&lt;br&gt;1. 主控端调用 connect(&quot;123456789&quot;, &quot;abc123&quot;) 发送设备验证码。&lt;br&gt;2. 被控端的回调函数 on_auth(fd, clientId, passwd) 被触发，回调函数内判断 passwd 是否等于 &quot;abc123&quot;，相等就返回 0，不等返回 -1。" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=14;fontFamily=Helvetica;fontColor=default;" vertex="1" parent="1">
+          <mxGeometry x="1760" y="1520" width="480" height="80" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
